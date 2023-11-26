@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  return <h2>Vkfilmes </h2>;
+  return <div className="App"></div>;
 }
 
 export default App;

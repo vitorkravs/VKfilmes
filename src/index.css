@@ -1,0 +1,21 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #f75454;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #a32b2b;
+}
