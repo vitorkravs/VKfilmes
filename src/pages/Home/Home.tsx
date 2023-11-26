@@ -28,11 +28,8 @@ const Home: React.FC = () => {
 
   useEffect(() => {
     const topRatedUrl = `${moviesURL}top_rated?${apiKey}`;
-    console.log(topRatedUrl);
     getTopRatedMovies(topRatedUrl);
   }, []);
-
-  console.log(topMovies);
 
   return (
     <div className="container">
