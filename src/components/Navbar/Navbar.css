@@ -3,13 +3,17 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #121212;
+  background-color: black;
 }
 
 #navbar h2 a {
   display: flex;
   align-items: center;
+  padding: 5px;
   gap: 0.5rem;
+  color: white;
+  background-color: #ee0808;
+  border-radius: 5px;
 }
 
 #navbar form {
@@ -24,10 +28,10 @@
 }
 
 #navbar form button {
-  background-color: #f75f54;
-  border: 2px solid #f75454;
+  background-color: black;
+  border: none;
   border-radius: 4px;
-  color: #000;
+  color: #ee0808;
   padding: 0.3rem;
   font-size: 1.3rem;
   display: flex;
