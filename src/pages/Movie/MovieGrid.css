@@ -1,12 +1,33 @@
 .container .title {
-  color: #fff;
   font-size: 2.5rem;
   text-align: center;
   margin: 2rem 0 1rem;
 }
 
+.container .title .text {
+  background-color: #ee0808;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.container .title .border {
+  border-bottom: 2px solid #ee0808;
+  margin: 2rem auto;
+  width: 40rem;
+}
+
+.title .title-results {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .title .query-text {
-  color: #f75454;
+  color: white;
+  background-color: #f75454;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .movies-container {
@@ -40,6 +61,7 @@
 
 .movies-container div h2 {
   margin-bottom: 1.5rem;
+  font-size: 1rem;
 }
 
 .movies-container div svg {
@@ -59,4 +81,35 @@
 .movies-container div a:hover {
   background-color: transparent;
   color: #f75454;
+}
+
+@media only screen and (max-width: 950px) {
+  .container .title .text {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .container .title .text {
+    font-size: 1.5rem;
+  }
+
+  .movies-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movies-container div {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .container .title .text {
+    font-size: 1.5rem;
+  }
+
+  .container .title .border {
+    width: 100%;
+  }
 }

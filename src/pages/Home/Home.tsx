@@ -33,7 +33,10 @@ const Home: React.FC = () => {
 
   return (
     <div className="container">
-      <h2 className="title">Melhores filmes:</h2>
+      <h2 className="title">
+        <span className="text">Melhores filmes</span>
+        <div className="border"></div>
+      </h2>
       <div className="movies-container">
         {topMovies.length > 0 &&
           topMovies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
