@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
   return (
     <nav id="navbar">
       <h2>
-        <Link to="/">
+        <Link to="/VKfilmes">
           <BiCameraMovie /> VKfilmes
         </Link>
       </h2>
