@@ -14,6 +14,13 @@
   color: white;
   background-color: #ee0808;
   border-radius: 5px;
+  transition: 0.5s;
+}
+
+#navbar h2 a:hover {
+  color: #ee0808;
+  background-color: white;
+  box-shadow: 1px 2px 6px white;
 }
 
 #navbar form {

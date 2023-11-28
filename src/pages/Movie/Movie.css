@@ -8,7 +8,7 @@
 
 .movie-page svg {
   font-size: 1.5rem;
-  color: #f75454;
+  color: #ee0808;
 }
 
 .movie-page .movie-card {
@@ -19,10 +19,6 @@
 .movie-page .movie-card h2,
 .movie-page .movie-card p {
   margin-bottom: 1rem;
-}
-
-.movie-page .movie-card h2 {
-  font-size: 2rem;
 }
 
 .movie-page .movie-card p {
@@ -51,4 +47,28 @@
 
 .description p {
   line-height: 1.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .movie-page .movie-card img {
+    width: 50%;
+  }
+
+  .movie-page .movie-card h2 {
+    font-size: 1rem;
+  }
+
+  .description p {
+    font-size: 0.8rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .movie-page .movie-card img {
+    width: 60%;
+  }
 }
