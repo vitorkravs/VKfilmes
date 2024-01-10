@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+## VKfilmes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao VKfilmes, um projeto de catálogo de filmes desenvolvido por Vitor Kravszenko.
 
-Currently, two official plugins are available:
+Pode ser acessado aqui: [VKfilmes](https://vitorkravs.github.io/VKfilmes/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descrição
 
-## Expanding the ESLint configuration
+O VKfilmes é um catálogo de filmes que permite explorar e descobrir informações sobre diferentes filmes. Foi utilizado o Vite para criar uma aplicação React com TypeScript, proporcionando uma experiência de usuário agradável para os amantes de cinema.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Recursos
 
-- Configure the top-level `parserOptions` property like this:
+Explorar Filmes: Navegue por uma vasta seleção de filmes e descubra detalhes interessantes sobre cada um.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Como Executar
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Clone o repositório: https://github.com/vitorkravs/VKfilmes.git
+
+Instale as Dependências
+
+  cd VKfilmes
+  npm install
+
+## Inicie o aplicativo
+
+Acesse o aplicativo em http://localhost:3000.
+
+Tecnologias Utilizadas
+
+  React Typescript
+  
+## Dependências Adicionais
+
+[react-router-dom] (ou outra para roteamento no React)
+
+## Contribuição
+
+  Contribuições são bem-vindas! Se você encontrar problemas, bugs ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma       "issue" ou enviar um "pull request".
+
+## Conecte-se comigo
+Fique à vontade para me encontrar em outras plataformas:
+
+- [GitHub](https://github.com/vitorkravs)
+- [LinkedIn](https://www.linkedin.com/in/vitor-kravszenko-80748a234/)
+  
+Desenvolvido por Vitor Cesar Kravszenko.
